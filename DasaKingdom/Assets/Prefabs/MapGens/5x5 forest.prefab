@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3848915752390185134}
   - component: {fileID: 3848915752390185135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 5x5 forest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3848915752390185136}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9098a0bec561ba448a90cba131c7c3d0, type: 3}
   m_Name: 
@@ -85,6 +85,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Plain Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663053832485678233, guid: a02d04d415935824ab0eb5abcbb07997,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8704451666640887434, guid: a02d04d415935824ab0eb5abcbb07997,
         type: 3}
@@ -216,6 +221,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Rocks Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4204807636228704785, guid: 4fa493b24d7d24b49b3adbd24119f63e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa493b24d7d24b49b3adbd24119f63e, type: 3}
 --- !u!4 &328964983391731256 stripped
@@ -235,6 +245,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Plain Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663053832485678233, guid: a02d04d415935824ab0eb5abcbb07997,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8704451666640887434, guid: a02d04d415935824ab0eb5abcbb07997,
         type: 3}
@@ -311,6 +326,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -385,6 +405,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Plain Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663053832485678233, guid: a02d04d415935824ab0eb5abcbb07997,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8704451666640887434, guid: a02d04d415935824ab0eb5abcbb07997,
         type: 3}
@@ -516,6 +541,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Rocks Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4204807636228704785, guid: 4fa493b24d7d24b49b3adbd24119f63e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa493b24d7d24b49b3adbd24119f63e, type: 3}
 --- !u!4 &1510827788927060626 stripped
@@ -535,6 +565,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
@@ -611,6 +646,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -685,6 +725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
@@ -761,6 +806,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -835,6 +885,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
@@ -966,6 +1021,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Rocks Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4204807636228704785, guid: 4fa493b24d7d24b49b3adbd24119f63e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa493b24d7d24b49b3adbd24119f63e, type: 3}
 --- !u!4 &4459368297043258893 stripped
@@ -1041,6 +1101,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Rocks Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4204807636228704785, guid: 4fa493b24d7d24b49b3adbd24119f63e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa493b24d7d24b49b3adbd24119f63e, type: 3}
 --- !u!4 &4583808535399792506 stripped
@@ -1060,6 +1125,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
@@ -1136,6 +1206,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Plain Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5663053832485678233, guid: a02d04d415935824ab0eb5abcbb07997,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8704451666640887434, guid: a02d04d415935824ab0eb5abcbb07997,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1210,6 +1285,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
@@ -1286,6 +1366,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Plain Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5663053832485678233, guid: a02d04d415935824ab0eb5abcbb07997,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8704451666640887434, guid: a02d04d415935824ab0eb5abcbb07997,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1360,6 +1445,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
@@ -1436,6 +1526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1511,6 +1606,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Plain Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5663053832485678233, guid: a02d04d415935824ab0eb5abcbb07997,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8704451666640887434, guid: a02d04d415935824ab0eb5abcbb07997,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1585,6 +1685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Plain Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663053832485678233, guid: a02d04d415935824ab0eb5abcbb07997,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8704451666640887434, guid: a02d04d415935824ab0eb5abcbb07997,
         type: 3}
@@ -1716,6 +1821,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile Forest Rocks Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4204807636228704785, guid: 4fa493b24d7d24b49b3adbd24119f63e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa493b24d7d24b49b3adbd24119f63e, type: 3}
 --- !u!4 &8855042589333943633 stripped
@@ -1735,6 +1845,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Plain Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663053832485678233, guid: a02d04d415935824ab0eb5abcbb07997,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8704451666640887434, guid: a02d04d415935824ab0eb5abcbb07997,
         type: 3}
@@ -1810,6 +1925,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 878891153560330157, guid: ef1a772950481a04188b803e0183e3fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4208942606083993022, guid: ef1a772950481a04188b803e0183e3fd,
         type: 3}
@@ -1940,6 +2060,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tile Forest Rocks Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204807636228704785, guid: 4fa493b24d7d24b49b3adbd24119f63e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa493b24d7d24b49b3adbd24119f63e, type: 3}

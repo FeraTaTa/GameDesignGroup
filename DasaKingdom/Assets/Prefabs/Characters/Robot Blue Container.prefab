@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4497563498048365117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7295130791309642407}
+  m_Layer: 0
+  m_Name: Robot Blue Container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7295130791309642407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4497563498048365117}
+  m_LocalRotation: {x: 0, y: 0.99515903, z: 0, w: 0.098277755}
+  m_LocalPosition: {x: -70.185776, y: 5.470954, z: -66.64584}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
+  m_Children:
+  - {fileID: 1877454899852646179}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 168.72, z: 0}
+--- !u!1001 &6878328716210027577
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7295130791309642407}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.29422092
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0148926005
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.050855484
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99870604
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 5.8300004
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 021d33001afd8f341aa17ede0645973d, type: 2}
+    - target: {fileID: -927199367670048503, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+        type: 3}
+      propertyPath: m_Name
+      value: demonrobot_mesh
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef, type: 3}
+--- !u!4 &1877454899852646179 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 0f0aaf9c51719cf4bbfd99a6b0d82aef,
+    type: 3}
+  m_PrefabInstance: {fileID: 6878328716210027577}
+  m_PrefabAsset: {fileID: 0}

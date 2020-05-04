@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public GameObject settingsPanel;
+    internal bool isSettingOpen = false;
 
     public void StartGame()
     {
@@ -15,11 +16,13 @@ public class MainMenu : MonoBehaviour
     public void OpenSettings()
     {
         settingsPanel.SetActive(true);
+        isSettingOpen = true;
     }
 
     public void CloseSettings()
     {
         settingsPanel.SetActive(false);
+        isSettingOpen = false;
     }
 
     public void ExitGame()

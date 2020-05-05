@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
-  playerHP: 0
+  playerHP: 6
   isAttacking: 0
   lanceDamage: 2
   GRAVITYGAIN: 1.5

@@ -79,6 +79,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1657619874537285556}
+  - component: {fileID: 4630699684038338645}
   m_Layer: 0
   m_Name: Robot Red Container
   m_TagString: enemy
@@ -102,6 +103,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -160.89201, z: 0}
+--- !u!114 &4630699684038338645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6790815290842622996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d855be9468e1a774d8740b022a8f8b5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 4
+  maxHealth: 4
 --- !u!1001 &3162832674236750123
 PrefabInstance:
   m_ObjectHideFlags: 0

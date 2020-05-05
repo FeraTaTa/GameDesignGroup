@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Hitbox : MonoBehaviour
 {
-    private PlayerController parentObj;
+    public PlayerController parentObj;
 
     // Start is called before the first frame update
     void Start()
@@ -15,13 +15,13 @@ public class Hitbox : MonoBehaviour
     void OnTriggerEnter(Collider collider)
     {
         Debug.Log("collide: "+ collider.name);
-        if (parentObj.attacking && collider.gameObject.tag == "enemy")
+        if (parentObj.isAttacking && collider.gameObject.tag == "enemy")
         {
             Debug.Log("hit enemy");
             int damage = 20;
-            if (collider.gameObject.GetComponent<EnemyRxDamage>() != null)
+            if (collider.gameObject.GetComponentInParent<EnemyRxDamage>() != null)
             {
-                collider.gameObject.GetComponent<EnemyRxDamage>().DealDamage(damage);
+                collider.gameObject.GetComponentInParent<EnemyRxDamage>().DealDamage(parentObj.lanceDamage);
             }
         }
     }

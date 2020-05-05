@@ -106,6 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de0bd04879dba841b46fd089a27783c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parentObj: {fileID: 0}
 --- !u!1 &3869281126967941126
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,7 +210,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3869281127423967557}
   - component: {fileID: 3869281127423967558}
-  - component: {fileID: 3869281127423967559}
   - component: {fileID: 3869281127423967576}
   - component: {fileID: 3869281127423967577}
   - component: {fileID: 3869281127423967578}
@@ -247,45 +247,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3869281127423967579}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &3869281127423967559
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3869281127423967579}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 342fce5f4bff7f84a964df3a7a988b4d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!136 &3869281127423967576
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -299,7 +260,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &3869281127423967577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,13 +274,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
-  attacking: 1
-  GRAVITYGAIN: 0.1
+  playerHP: 0
+  isAttacking: 0
+  lanceDamage: 2
+  GRAVITYGAIN: 1.5
   _groundChecker: {fileID: 3869281127896643981}
   Ground:
     serializedVersion: 2
     m_Bits: 256
   GroundDistance: 5
+  attackTime: 1
+  lance: {fileID: 1690693472967679706}
+  isHoldingRedGem: 0
+  isHoldingBlueGem: 0
 --- !u!143 &3869281127423967578
 CharacterController:
   m_ObjectHideFlags: 0
@@ -337,7 +304,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &3869281127896643982
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,6 +342,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3869281127423967557}
     m_Modifications:
+    - target: {fileID: -5701219036772293732, guid: c15c8cc9446f9c3429ff4d9bd7ec3485,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0185
+      objectReference: {fileID: 0}
+    - target: {fileID: -5701219036772293732, guid: c15c8cc9446f9c3429ff4d9bd7ec3485,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0498
+      objectReference: {fileID: 0}
+    - target: {fileID: -5701219036772293732, guid: c15c8cc9446f9c3429ff4d9bd7ec3485,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0009
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c15c8cc9446f9c3429ff4d9bd7ec3485,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -455,6 +437,12 @@ PrefabInstance:
 --- !u!4 &7128366365285078620 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: c15c8cc9446f9c3429ff4d9bd7ec3485,
+    type: 3}
+  m_PrefabInstance: {fileID: 2852959718273547590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1690693472967679706 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5701219036772293732, guid: c15c8cc9446f9c3429ff4d9bd7ec3485,
     type: 3}
   m_PrefabInstance: {fileID: 2852959718273547590}
   m_PrefabAsset: {fileID: 0}

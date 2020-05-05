@@ -27,7 +27,7 @@ public class LevelGen : MonoBehaviour
         }
         if (mapName != string.Empty)
         {
-            PrefabUtility.SaveAsPrefabAsset(gameObject, "Assets/Prefabs/MapGens/"+mapName+".prefab");
+            //PrefabUtility.SaveAsPrefabAsset(gameObject, "Assets/Prefabs/MapGens/"+mapName+".prefab");
 
         }
     }
@@ -42,19 +42,19 @@ public class LevelGen : MonoBehaviour
         switch (tileChoice)
         {
             case 0:
-                //Instantiate(tile1, position, Quaternion.identity, transform);
-                obj = PrefabUtility.InstantiatePrefab(tile1, transform) as GameObject;
-                obj.transform.SetPositionAndRotation(position, Quaternion.Euler(0.0f, rotation, 0.0f));
+                ////Instantiate(tile1, position, Quaternion.identity, transform);
+                //obj = PrefabUtility.InstantiatePrefab(tile1, transform) as GameObject;
+                //obj.transform.SetPositionAndRotation(position, Quaternion.Euler(0.0f, rotation, 0.0f));
                 break;
 
             case 1:
-                obj = PrefabUtility.InstantiatePrefab(tile2, transform) as GameObject;
-                obj.transform.SetPositionAndRotation(position, Quaternion.Euler(0.0f, rotation, 0.0f));
+                //obj = PrefabUtility.InstantiatePrefab(tile2, transform) as GameObject;
+                //obj.transform.SetPositionAndRotation(position, Quaternion.Euler(0.0f, rotation, 0.0f));
                 break;
 
             case 2:
-                obj = PrefabUtility.InstantiatePrefab(tile3, transform) as GameObject;
-                obj.transform.SetPositionAndRotation(position, Quaternion.Euler(0.0f, rotation, 0.0f));
+                //obj = PrefabUtility.InstantiatePrefab(tile3, transform) as GameObject;
+                //obj.transform.SetPositionAndRotation(position, Quaternion.Euler(0.0f, rotation, 0.0f));
                 break;
 
         }
